@@ -34,7 +34,7 @@ void loop(){
     client.println("HTTP/1.1 200 OK");
     client.println("Content-type:text/html");
     client.println("Connection: close");
-    client.println();
+    client.println(); //Don't remove this line
     client.println("<!DOCTYPE html>");
       client.println("<html>");
       client.println("<head>");
@@ -46,7 +46,7 @@ void loop(){
         client.println("Postremo ad id indignitatis est ventum, ut cum peregrini ob formidatam haut ita dudum alimentorum inopiam pellerentur ab urbe praecipites, sectatoribus disciplinarum liberalium inpendio paucis sine respiratione ulla extrusis, tenerentur minimarum adseclae veri, quique id simularunt ad tempus, et tria milia saltatricum ne interpellata quidem cum choris totidemque remanerent magistris.");
         client.println("</body>");
       client.println("</html>");
-    client.println();
+    client.println(); //Don't remove this line
     delay (100);
     client.stop();
       }
