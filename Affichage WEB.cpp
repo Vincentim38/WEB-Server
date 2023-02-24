@@ -1,8 +1,8 @@
 #include <Arduino.h>
 #include <WiFi.h>
 
-const char* ssid = "Livebox-1932";
-const char* password = "tim12345";
+const char* ssid = "xxxxxx";
+const char* password = "xxxxx";
 
 WiFiServer server(80);
 
